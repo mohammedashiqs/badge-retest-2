@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <center>
+        <form action="" class="my-form">
+            <table>
+                <tr>
+                    <td><label for="">Name: </label></td>
+                    <td><input autocomplete="off" onfocus="focusName()" type="text" placeholder="Enter your name"
+                            id="name"><span id="errorName"></span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Age: </label></td>
+                    <td><input autocomplete="off" onfocus="focusAge()" type="number" placeholder="eg: 25" id="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email: </label></td>
+                    <td><input autocomplete="off" onfocus="focusEmail()" type="email" placeholder="Enter your email"
+                            id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender: </label></td>
+                    <td>
+                        <label for="Gender">Male</label>
+                        <input value="male" type="radio" name="male" id="male">
+                        <label for="Gender">Female</label>
+                        <input value="female" type="radio" name="female" id="female">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td><label for="skills">SKILLS: </label></td>
+                    <td>
+                        <label for="skills">HTML</label>
+                        <input type="checkbox" value="html">
+                        <label for="skills">CSS</label>
+                        <input type="checkbox" value="css">
+                        <label for="skills">JS</label>
+                        <input type="checkbox" value="js">
+                        <label for="skills">BOOTSTRAP</label>
+                        <input type="checkbox" value="bootstrap">
+                        <label for="skills">GIT</label>
+                        <input type="checkbox" value="git">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <button id="btn" type="button" onclick="formHandler()">Submit</button>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

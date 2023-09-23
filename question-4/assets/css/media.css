@@ -1,0 +1,39 @@
+/* MOBILE */
+@media(max-width: 788px){
+    
+    
+ 
+
+
+
+    
+
+    
+    section>video:nth-child(3){
+    display: inline-block;
+    }
+
+    section>video:nth-child(1){
+    display: none;
+    }
+    section>video:nth-child(2){
+    display: none;
+    }
+    
+    }
+
+
+/* TAB */
+@media(min-width:789px) and (max-width: 1024px){
+
+
+    section>video:nth-child(2){
+        display: inline;
+    }
+    section>video:nth-child(1){
+        display: none;
+    }
+    
+  
+    
+}

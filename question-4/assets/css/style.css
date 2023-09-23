@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+  /* VIDEO BANNER */
+
+
+/* Adjest video width for full width of screen */
+
+video{
+    width: 100%;
+    /* height: 70%; */
+    /* object-fit: cover; */
+} 
+
+/* Disable the video2 and 3 */
+section>video:nth-child(2){
+    display: none;
+}
+section>video:nth-child(3){
+    display: none;
+}
+
+
+/* audio */
+audio{
+    border: 10px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
